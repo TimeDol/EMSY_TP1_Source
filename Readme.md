@@ -53,7 +53,7 @@ G. Lancement du live CD :
 
 Shell Linux : 
 
-[Placer votre capture d'écran]() 
+![Placer votre capture d'écran](Images/Shell_Linux.png) 
 
 > **ATTENTION** : par défaut, le clavier est configuré est **Clavier Americain**
 

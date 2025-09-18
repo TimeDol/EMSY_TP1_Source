@@ -49,7 +49,7 @@ H. Lancez la machine virtuelle : **Play virtual machine**
 
 G. Lancement du live CD : 
 
-[Placer votre capture d'écran](Images/Lancement_du_live_CD.png) 
+![Placer votre capture d'écran](Images/Lancement_du_live_CD.png) 
 
 Shell Linux : 
 

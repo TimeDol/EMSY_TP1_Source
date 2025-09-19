@@ -76,7 +76,7 @@ H. Déplacez-vous à la **racine du système** en utilisant la commande suivante
 
 I. Affichez le contenu de la racine avec la commande : `ls –l`	
 
-![Placer votre capture d'écran]() 
+![Placer votre capture d'écran](contenu_de_la_racine.png) 
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
@@ -84,7 +84,7 @@ Q5. Que signifie l'option `-l` avec la commande `ls`
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
-[Placer votre capture d'écran]()
+[Placer votre capture d'écran](répertoire_home.png)
 
 > votre réponse ?!
 
@@ -112,7 +112,7 @@ Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que 
 
 L. Tapez la commande `ls -l /dev/sda` 
 
-![Placer votre capture d'écran]() 
+![Placer votre capture d'écran](command_sda.png) 
 
 Q11. Que signifie **sda** ? 
 

@@ -119,7 +119,8 @@ Dans le répertorie home car ce répertoire est reserver pour des dossiers perso
 K. Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
 	Utiliser la commande `vi`
 
-> votre commande ?! 
+> Nous allons tapez "vi TESTSLO_TDS_DEA" pour créé un fichier.
+> Activer le mode insertion → i et taper le texte, ensupte pour, faire echappe pour quitter le mode insertion et faire "ZZ" pour enregister et quitter.
 
 Q9. dans le répertoire `/home`, pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 

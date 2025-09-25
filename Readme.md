@@ -59,7 +59,7 @@ Shell Linux :
 
 Q1. disposition du clavier américain ?
 
-> votre réponse ?!
+> Les touche des lettres sont quasiment pareil, sauf que le Z et le Y sont inverser
 
 Q2. disposition du clavier suisse-romand ?
 

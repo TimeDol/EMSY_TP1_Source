@@ -103,10 +103,10 @@ Q6. Décrypter la ligne où se trouve le répertoire **home**
 
 J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 
 
->On va utiliser la commande "sudo su" pour passer en super utilisateur et pouvoir éditer le dossier home.
->Ensuite, on va utiliser la commande "cd home/" pour se déplacer dans le dossier home.
->Ensuite, on utilise "mkdir EMSY_TDS_DEA" pour créer un dossier dans le répertoire home.
->Nous avons choisi le répertoire home car il est décrit dans Linux comme un répertoire personnel.
+> On va utiliser la commande "sudo su" pour passer en super utilisateur et pouvoir éditer le dossier home.
+> Ensuite, on va utiliser la commande "cd home/" pour se déplacer dans le dossier home.
+> Ensuite, on utilise "mkdir EMSY_TDS_DEA" pour créer un dossier dans le répertoire home.
+> Nous avons choisi le répertoire home car il est décrit dans Linux comme un répertoire personnel.
 
 Q7. Si vous créez un répertoire de travail (pour éditer/sauvegarder des fichiers), dans quelle **répertoire racine** vous vous placez ? 
 

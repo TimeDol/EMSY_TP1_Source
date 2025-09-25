@@ -113,7 +113,7 @@ J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel doss
 
 Q7. Si vous créez un répertoire de travail (pour éditer/sauvegarder des fichiers), dans quelle **répertoire racine** vous vous placez ? 
 
-> votre réponse ?!
+Dans le répertorie home car ce répertoire est reserver pour des dossiers personnels.
 
 
 K. Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".

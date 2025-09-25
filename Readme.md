@@ -87,12 +87,18 @@ Q6. Décrypter la ligne où se trouve le répertoire **home**
 ![Placer votre capture d'écran](Images/répertoire_home.png)
 
 > Le « d » au début veut dire que c’est un dossier, le « r » signifie que l’on peut lire le contenu, le « w » signifie que l’on peut modifier le contenu et « x » signifie que l’on peut exécuter le contenu. Dans ce cas de la ligne « drwxr-xr-x », elle permet de dire que tout le monde peut accéder au répertoire et lire son contenu, mais seul le créateur peut le modifier.
-Le « 1 » après cette ligne décrit le nombre de liens physiques au dossier.
-Le premier « root » décrit le propriétaire du dossier.
-Le second « root » décrit le groupe propriétaire du dossier.
-Le « 60 » représente la taille en octets du contenu du dossier.
-Le « sep 18 13:47 » représente la date et l’heure de la dernière modification.
-Le « home » est le nom du dossier.
+
+>Le « 1 » après cette ligne décrit le nombre de liens physiques au dossier.
+
+>Le premier « root » décrit le propriétaire du dossier.
+
+>Le second « root » décrit le groupe propriétaire du dossier.
+
+>Le « 60 » représente la taille en octets du contenu du dossier.
+
+>Le « sep 18 13:47 » représente la date et l’heure de la dernière modification.
+
+>Le « home » est le nom du dossier.
 
 
 J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 

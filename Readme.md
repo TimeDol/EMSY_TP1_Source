@@ -35,11 +35,11 @@ F. Nommez la machine virtuelle : `SparkyLinux-VosInitiales`
 
 G. Creez un disque virtuel -> capcité : **20GB** 
 
-> remarque$$^1$$ : cocher **store virtual disk a single file**
+> remarque : cocher **store virtual disk a single file**
 
 ![Virtual disk](/Images/VirtualDisk.jpg) 
 
-> remarque$$^2$$ : ci-dessous, la configuration de la VM 
+> remarque : ci-dessous, la configuration de la VM 
 
 ![Virtual disk](/Images/VM_Config.jpg) 
 
@@ -80,7 +80,7 @@ I. Affichez le contenu de la racine avec la commande : `ls –l`
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-> la commande ls de base sert à faire un listing du repertoir dans lequel on est, si on utilise l'option l (long) on verra des informations complentaires.
+> la commande ls de base sert à faire un listing du repertoir dans lequel on est, si on utilise l'option "l" (long), sa affichera en plus des détail comme le type, permissions, propriétaire, groupe, taille, dates.
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 

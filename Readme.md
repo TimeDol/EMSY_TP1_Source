@@ -124,11 +124,11 @@ K. Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_X
 
 Q9. dans le répertoire `/home`, pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 
-> votre réponse ?!
+> Faux, on peut utiliser la commande nano, qui est également un éditeur de texte (plus simple d’utilisation).
 
 Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé ci-dessus existe toujours (justifiez votre réponse) ? 
 
-> votre réponse ?!
+> Non, car toutes les modifications sont pour l’instant sauvegardées dans la RAM et pas sur le disque, ce qui fait qu’une fois la machine éteinte, tout est perdu.
 
 L. Tapez la commande `ls -l /dev/sda` 
 
@@ -136,7 +136,7 @@ L. Tapez la commande `ls -l /dev/sda`
 
 Q11. Que signifie **sda** ? 
 
-> votre réponse ?!
+> C’est le nom par défaut que Linux donne aux disques détectés. Par exemple, le premier disque s’appelle /dev/sda, le deuxième /dev/sdb, etc.
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 

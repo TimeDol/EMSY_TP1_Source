@@ -28,6 +28,7 @@ D. Indiquez le chemin d’accès de l’image iso comme indiqué sous l’image 
 E. Choisir un nom d'OS : `Linux - Debian 11.x` 
 
 ![OS name choice](/Images/OS_Choice.jpg) 
+> Rajouter l'image de la selection du type d'OS
 
 F. Nom de la machine virtuelle : `SparkyLinux-TDS_DEA` 
 

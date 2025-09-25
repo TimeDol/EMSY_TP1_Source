@@ -13,15 +13,13 @@ Cette manipulation a pour but d'installer une distribution linux [Sparky Linux](
 - VMware Workstation Player - V17
 - Image disque (ISO) : sparkylinux-6.4-x86_64-minimalcli.iso
 
-## Utilisation de VMware et de l'image ISO linux 
+## Creation d'une machine virtuel
 
-A. Lancez VMware Workstation Player (logiciel)  
+A. Lancez VMware Workstation Player 17 (logiciel)  
 
 B. Sélectionnez **Create a New Virtual Machine** 
 
-C. Placez le fichier `.iso` dans une repertoire connu : 
-
-`C:\VosInitiales\VM\ISO`
+C. Le fichier `.iso` le l'instalation Linux est plancer dans le repertoire `C:\TDS\VM\ISO`
 
 D. Indiquez le chemin d’accès de l’image iso comme indiqué sous l’image ci-dessous :
 
@@ -31,15 +29,13 @@ E. Choisir un nom d'OS : `Linux - Debian 11.x`
 
 ![OS name choice](/Images/OS_Choice.jpg) 
 
-F. Nommez la machine virtuelle : `SparkyLinux-VosInitiales` 
+F. Nom de la machine virtuelle : `SparkyLinux-TDS_DEA` 
 
-G. Creez un disque virtuel -> capcité : **20GB** 
-
-> remarque : cocher **store virtual disk a single file**
+G. Creez un disque virtuel -> capcité : **20GB** et cocher **store virtual disk a single file**
 
 ![Virtual disk](/Images/VirtualDisk.jpg) 
 
-> remarque : ci-dessous, la configuration de la VM 
+## Voici la configuration de la VM 
 
 ![Virtual disk](/Images/VM_Config.jpg) 
 

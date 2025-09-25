@@ -59,15 +59,15 @@ Shell Linux :
 
 Q1. disposition du clavier américain ?
 
-> Les touche des lettres sont quasiment pareil, sauf que le Z et le Y sont inverser
+> QWERTY
 
 Q2. disposition du clavier suisse-romand ?
 
-> votre réponse ?!
+> QWERZ
 
 Q3. disposition du le clavier français ? 
 
-> votre réponse ?!
+> AZERTY
 
 
 H. Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
@@ -82,7 +82,7 @@ I. Affichez le contenu de la racine avec la commande : `ls –l`
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-> votre réponse ?!
+> la commande ls de base sert à faire un listing du repertoir dans lequel on est, si on utilise l'option l (long) on verra des informations complentaires.
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 

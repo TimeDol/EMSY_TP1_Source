@@ -140,7 +140,7 @@ Q11. Que signifie **sda** ?
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
-> le "ls -l" sert a faire un listing avec l'option "l" les affichera les détail comme le type, permissions, propriétaire, groupe, dates
+> le "ls -l" sert a faire un listing avec l'option "l" les affichera les détail comme le type, permissions, propriétaire, groupe, dates et "/dev/sda" fait référence au premier disque dur détecté par Linux
 
 
 ## Tips 

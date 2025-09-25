@@ -19,7 +19,7 @@ A. Lancez VMware Workstation Player 17 (logiciel)
 
 B. Sélectionnez **Create a New Virtual Machine** 
 
-C. Le fichier `.iso` le l'instalation Linux est plancer dans le repertoire `C:\TDS\VM\ISO`
+C. Le fichier `.iso` le l'instalation Linux est plancé dans le repertoire `C:\TDS\VM\ISO`
 
 D. Indiquez le chemin d’accès de l’image iso comme indiqué sous l’image ci-dessous :
 

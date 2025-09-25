@@ -72,7 +72,7 @@ Q3. disposition du le clavier français ?
 
 H. Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
 
-> cd /
+> pour se déplacer a la racine on va utilser "cd /" le "/" représentant la racine.
 
 I. Affichez le contenu de la racine avec la commande : `ls –l`	
 
@@ -140,7 +140,7 @@ Q11. Que signifie **sda** ?
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
-> votre réponse ?!
+> le "ls -l" sert a faire un listing avec l'option "l" les affichera les détail comme le type, permissions, propriétaire, groupe, dates
 
 
 ## Tips 

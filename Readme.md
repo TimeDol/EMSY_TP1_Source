@@ -168,3 +168,13 @@ Q17: Nano c'est un editeur de text.
 
 > $$Tips^5$$ : [éditer un fichier type markdown (.md)](https://ashki23.github.io/markdown-latex.html)
 
+## Tips complementaires
+> $$Tips^1$$ : Reinitialiser le mot de passe s'il est oublié :
+> 1. Reboot la machine -> Dans le GRUB sélection la version sparky qu'on utilise (PAS APPUYER ENTER), une fois dessus appuyer sur la touche "e".
+> 2. Dans les commandes, il faut chercher la commande qui commence par `linux /boot/vmlinuz-xxxx root=UUID=xxxx ro...`
+> 3. On efface tout ce qui est marqué à partir de `ro` et on le substitue par `rw init=/bin/bash`
+> 4. Ensuite sans faire enter, on redémarre la machine (Ctrl + X ou F10), en mode normal, PAS DE RECOVERY MODE !.
+> 5. Une fois la machine redemarre, on verra un `#`, après ce caractère on tape la commande suivante : `passwd ton_nom_d'user` appuyer sur enter
+> 6. Suite à ça la machine va nous demander un nouveau mot de passe, on crée un et on redemarre la machine.
+> 7. Après ces étapes le mot de passe sera reinitialisé.
+>

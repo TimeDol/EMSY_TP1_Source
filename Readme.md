@@ -150,6 +150,11 @@ Q14. La partition swap sert à utiliser un peu de memoire du disque comme memoir
 Q15. GBR
 
 Q16. Lors de l’installation, nous avons eu deux noms : Host, qui correspond au nom de la machine, et User, qui se réfère à la personne qui utilise la machine
+O: Changement de la disposition du clavier.
+
+Q17: Nano c'est un editeur de text.
+
+
 
 ## Tips 
 

@@ -117,7 +117,7 @@ K. Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_X
 	Utiliser la commande `vi`
 
 > Nous allons tapez "vi TESTSLO_TDS_DEA" pour créé un fichier.
-> Activer le mode insertion → i et taper le texte, ensupte pour, faire echappe pour quitter le mode insertion et faire "ZZ" pour enregister et quitter.
+> Activer le mode insertion → i et taper le texte, ensuite, faire echappe pour quitter le mode insertion et faire "ZZ" pour enregister et quitter.
 
 Q9. dans le répertoire `/home`, pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 

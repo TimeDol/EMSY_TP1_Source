@@ -142,6 +142,9 @@ Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> v
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky ?
 
 > La taille minimal d'instalition et de 2Go
+> 
+https://wiki.sparkylinux.org/doku.php/minimum_system_requirements
+
 
 ## Tips 
 

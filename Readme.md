@@ -139,6 +139,9 @@ Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> v
 
 > le "ls -l" sert a faire un listing avec l'option "l" les affichera les détail comme le type, permissions, propriétaire, groupe, dates et "/dev/sda" fait référence au premier disque dur détecté par Linux
 
+Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky ?
+
+> La taille minimal d'instalition et de 2Go
 
 ## Tips 
 

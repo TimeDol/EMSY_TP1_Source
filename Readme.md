@@ -145,6 +145,11 @@ Q13. Quelle est la taille de disque minimum recommandée pour installer la distr
 > 
 https://wiki.sparkylinux.org/doku.php/minimum_system_requirements
 
+Q14. La partition swap sert à utiliser un peu de memoire du disque comme memoire RAM, et sur Windows c'est l'equivalent à Pagefile.sys.
+
+Q15. GBR
+
+Q16. Lors de l’installation, nous avons eu deux noms : Host, qui correspond au nom de la machine, et User, qui se réfère à la personne qui utilise la machine
 
 ## Tips 
 

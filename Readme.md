@@ -153,7 +153,10 @@ Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle s
 
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ?
 > Lors de l’installation, nous avons eu deux noms : Host, qui correspond au nom de la machine, et User, qui se réfère à la personne qui utilise la machine
+
+
 O: Changement de la disposition du clavier.
+
 
 Q17: Nano c'est un editeur de text.
 

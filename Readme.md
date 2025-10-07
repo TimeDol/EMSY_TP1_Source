@@ -141,12 +141,12 @@ Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> v
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky ?
 
-> La taille minimal d'instalition et de 2Go
+> La taille minimal d'instalition et de 2Go comme indiquée sur le site
 > 
 https://wiki.sparkylinux.org/doku.php/minimum_system_requirements
 
 Q14. A quoi sert la partition swap ? Est-ce que ce principe existe sur les OS Microsoft Windows ?
-> La partition swap sert à utiliser un peu de memoire du disque comme memoire RAM, et sur Windows c'est l'equivalent à Pagefile.sys.
+> La partition swap sert à utiliser une certaine quantitée de memoire allouer du disque comme memoire RAM dans le cas ou l'integralitée de la mêmoire vive et remplie, et sur Windows c'est l'equivalent à Pagefile.sys.
 
 Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également accessible depuis un OS Microsoft ? 
 > GBR
@@ -154,8 +154,11 @@ Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle s
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ?
 > Lors de l’installation, nous avons eu deux noms : Host, qui correspond au nom de la machine, et User, qui se réfère à la personne qui utilise la machine
 
+N: Capture d’écran du démarrage du système
 
 O: Changement de la disposition du clavier.
+
+P: tapez la commande "nano -version"
 
 
 Q17: Nano c'est un editeur de text.

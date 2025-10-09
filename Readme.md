@@ -163,6 +163,10 @@ P: tapez la commande "nano -version"
 
 Q17: Nano c'est un editeur de text.
 
+Q18: On peut faire la commande `git`, si la commande est reconnue git est installé, autrement git n'est pas installé.
+
+Q19: Pour installer il faut utiliser la commande `sudo apt install git`
+
 
 
 ## Tips 

@@ -163,18 +163,19 @@ N: Après l’installation de Linux, prenez une capture d’écran du démarrage
 
 ![Capture d’écran du démarrage du système](Images/Installation/GRUB.png)
 
-O: Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand trouvable sous « German (Switzerland)) et procédez à la configuration du clavier. 
-Changement de la disposition du clavier.
-> Pour chager la disposition du clavier, on peut taper : sudo nano /ect/default/keyboard se qui nous ouvre le fichier de configuration du clavier, et on chage les valeur par defaut, par les valeur si dessous:
+O: Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand trouvable sous « German (Switzerland)) et procédez à la configuration du clavier. Changement de la disposition du clavier.
+> Pour chager la disposition du clavier, on peut taper : sudo nano /ect/default/keyboard se qui nous ouvre le fichier de configuration du clavier, et on change les valeurs par defaut, par les valeur si dessous:
+
 ![Nano Clavier](Images/Installation/changement_clavier.png)
 
 P: Testez si l’application « nano » est installée sur votre machine, tapez la commande : nano -version
 > la commande exacte est : nano -V, nano -version ne fonctionne pas.
 ![Version nano](Images/Installation/Nano_Version.png)
+>On peut voir qu'il est intaller !
 
 
 Q17: À quoi sert « nano » ?
->nano est un petit editeur de text en ligne de commande, comme vi mais plus simple d'utilisation qui sert a éditer tout type de fichier avec du texte.
+>nano est un petit editeur de text en ligne de commande, comme vi mais plus simple d'utilisation, qui sert a éditer tout type de fichier avec du texte.
 
 Q: Testez si l’application « git » est installée sur votre distribution, si ce n’est pas le cas installez un client git.
 
@@ -189,12 +190,12 @@ Q20: Que veut dire « apt » ?
 >Advanced Package Tool (apt) est un gestionnaire de paquet sur Debian, qui permet d'intaller ou de désinstaller des programmes graçe a un répôt en ligne.
 
 Q21: Est-ce que cette commande peut être utilisée sur toutes les distributions Linux ?
->Non, C'est uniquement les systeme sous debian. ex: Arch linux utilise pacman et Alpine Linux utilise apk.
+>Non, C'est uniquement sur les distribution linux sous debian. ex: Arch linux utilise pacman et Alpine Linux utilise apk.
 
 R: Créez un sous-répertoire « EMSY_TP1_TDS-DEA » dans le répertoire de votre utilisateur. Attention : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution.
 
 Q22: Quel est le répertoire utilisateur ?
->C'est le dossier qui se trouve dans "/home/admin" "admin" et le nom d'utilisateur de notre machine.
+>C'est le dossier qui se trouve dans "/home/admin" "admin" et le nom d'utilisateur de notre machine, C'est ici on l'on peut stocker ou crée des fichiers et de pour voir le modifier sans le droit d'administrateur.
 
 Q23: Quelles sont les commandes que vous allez utiliser ?
 >Premièrement, se diriger dans notre dossier utilisateur en faisant "cd /home/admin".
@@ -209,11 +210,13 @@ Q24: Qu’observez-vous dans votre répertoire ?
 
 T: Editez le fichier source .c avec l’éditeur de texte « nano ». Réalisez un petit programme en C (par exemple de type « Hello world »).
 >Nous avons realiser un Hello World en C. avec l'aide de nano.
+
 ![Fichier Hello World](Images/Installation/Code_Hello_Word.png)
 
 U. Vérifiez si le compilateur « gcc » est bien installé. Notez la version du logiciel.
 >Pour ça nous avons taper "gcc -v"
 ![test gcc](Images/Installation/Test_GCC.png)
+> la version du logiciel est la gcc 14.2.0.
 
 Tapez les commandes suivantes : "gcc -Wall -o EMSY_TP1.o -c EMSY_TP1.c" et "gcc -o EMSY_TP1 EMSY_TP1.o"
 ![Compilation](Images/Installation/GCC_Complie.png)
@@ -227,6 +230,7 @@ Q25: Quels sont les fichiers qui ont été générés ?
 V. Entrez la commande suivante : ./EMSY_TP1
 Q26: Que se passe-t-il ?
 >Une fois executer, le programme nous revoie un "Hello World!"
+
 ![Hello World](Images/Installation/Hello_World.png)
 
 ## Tips 

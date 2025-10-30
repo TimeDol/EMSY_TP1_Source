@@ -59,7 +59,7 @@ Q1. disposition du clavier américain ?
 
 Q2. disposition du clavier suisse-romand ?
 
-> QWERZ
+> QWERTZ
 
 Q3. disposition du le clavier français ? 
 
@@ -143,7 +143,7 @@ Pour lancer l'installateur taper sudo sparkylinux-installer
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky ?
 
-> La taille minimal d'instalition et de 2Go comme indiquée sur le site
+> La taille minimal d'instalition et de 2Go pour la version MinimalCLI comme indiquée sur le site
 > 
 https://wiki.sparkylinux.org/doku.php/minimum_system_requirements
 
@@ -164,7 +164,7 @@ N: Après l’installation de Linux, prenez une capture d’écran du démarrage
 ![Capture d’écran du démarrage du système](Images/Installation/GRUB.png)
 
 O: Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand trouvable sous « German (Switzerland)) et procédez à la configuration du clavier. Changement de la disposition du clavier.
-> Pour chager la disposition du clavier, on peut taper : sudo nano /ect/default/keyboard se qui nous ouvre le fichier de configuration du clavier, et on change les valeurs par defaut, par les valeur si dessous:
+> Pour chager la disposition du clavier, on peut taper : sudo nano /etc/default/keyboard se qui nous ouvre le fichier de configuration du clavier, et on change les valeurs par defaut, par les valeur si dessous:
 >Et ensuite redemarrer.
 
 ![Nano Clavier](Images/Installation/changement_clavier.png)
@@ -182,9 +182,9 @@ Q17: À quoi sert « nano » ?
 Q: Testez si l’application « git » est installée sur votre distribution, si ce n’est pas le cas installez un client git.
 
 Q18: Comment savoir si « git » est déjà installé ?
->On peut faire la commande `git`, si la commande est reconnue git est installé, autrement git n'est pas installé.
+>On peut faire la commande `git`, si la commande est reconnue git est installé, autrement git n'est pas installé ou aussi git --version.
 
-Q19: Quelle(s) commande(s) utilisez-vous pour l’installer ?
+Q19: Quelle(s) commande(s) utilisez-vous pour l’installer ?	
 >Pour installer il faut utiliser la commande `sudo apt install git`
 ![Installation GIT](Images/Installation/Insalatio_GIT.png)
 

@@ -139,6 +139,9 @@ Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> v
 
 > le "ls -l" sert a faire un listing avec l'option "l" les affichera les détail comme le type, permissions, propriétaire, groupe, dates et "/dev/sda" fait référence au premier disque dur détecté par Linux
 
+Pour lancer l'installateur taper sudo sparkylinux-installer
+![Installateur](Images/Installation/Sparky installer.png)
+
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky ?
 
 > La taille minimal d'instalition et de 2Go comme indiquée sur le site
@@ -151,13 +154,11 @@ Q14. A quoi sert la partition swap ? Est-ce que ce principe existe sur les OS Mi
 Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également accessible depuis un OS Microsoft ? 
 > GBR
 
+Voici la configuration du partitionnement de norte VM.
+![partitionnement](Images/Installation/Partition_Creation.png)
+
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ?
 > Lors de l’installation, nous avons eu deux noms : Host, qui correspond au nom de la machine, et User, qui se réfère à la personne qui utilise la machine
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 N: Après l’installation de Linux, prenez une capture d’écran du démarrage de votre système (GRUB).
 

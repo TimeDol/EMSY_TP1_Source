@@ -151,7 +151,7 @@ Q14. A quoi sert la partition swap ? Est-ce que ce principe existe sur les OS Mi
 > La partition swap sert à utiliser une certaine quantitée de memoire allouer du disque comme memoire RAM dans le cas ou l'integralitée de la mêmoire vive et remplie, et sur Windows c'est l'equivalent à Pagefile.sys.
 
 Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également accessible depuis un OS Microsoft ? 
-> GBR
+> On peut utiliser du exFAT ou du FAT32 pour que linux et windows puisse utiliser la partition.
 
 Voici la configuration du partitionnement de notre VM.
 ![partitionnement](Images/Installation/Partition_Creation.png)
@@ -165,13 +165,15 @@ N: Après l’installation de Linux, prenez une capture d’écran du démarrage
 
 O: Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand trouvable sous « German (Switzerland)) et procédez à la configuration du clavier. Changement de la disposition du clavier.
 > Pour chager la disposition du clavier, on peut taper : sudo nano /ect/default/keyboard se qui nous ouvre le fichier de configuration du clavier, et on change les valeurs par defaut, par les valeur si dessous:
+>Et ensuite redemarrer.
 
 ![Nano Clavier](Images/Installation/changement_clavier.png)
 
 P: Testez si l’application « nano » est installée sur votre machine, tapez la commande : nano -version
 > la commande exacte est : nano -V, nano -version ne fonctionne pas.
 ![Version nano](Images/Installation/Nano_Version.png)
->On peut voir qu'il est intaller !
+
+> On peut voir qu'il est intaller !
 
 
 Q17: À quoi sert « nano » ?

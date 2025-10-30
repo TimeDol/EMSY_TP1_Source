@@ -154,20 +154,80 @@ Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle s
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ?
 > Lors de l’installation, nous avons eu deux noms : Host, qui correspond au nom de la machine, et User, qui se réfère à la personne qui utilise la machine
 
-N: Capture d’écran du démarrage du système
-
-O: Changement de la disposition du clavier.
-
-P: tapez la commande "nano -version"
 
 
-Q17: Nano c'est un editeur de text.
-
-Q18: On peut faire la commande `git`, si la commande est reconnue git est installé, autrement git n'est pas installé.
-
-Q19: Pour installer il faut utiliser la commande `sudo apt install git`
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+N: Après l’installation de Linux, prenez une capture d’écran du démarrage de votre système (GRUB).
+
+![Capture d’écran du démarrage du système](Images/Installation/GRUB.png)
+
+O: Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand trouvable sous « German (Switzerland)) et procédez à la configuration du clavier. 
+Changement de la disposition du clavier.
+> Pour chager la disposition du clavier, on peut taper : sudo nano /ect/default/keyboard se qui nous ouvre le fichier de configuration du clavier, et on chage les valeur par defaut, par les valeur si dessous:
+![Nano Clavier](Images/Installation/changement_clavier.png)
+
+P: Testez si l’application « nano » est installée sur votre machine, tapez la commande : nano -version
+> la commande exacte est : nano -V, nano -version ne fonctionne pas.
+![Version nano](Images/Installation/Nano_Version.png)
+
+
+Q17: À quoi sert « nano » ?
+>nano est un petit editeur de text en ligne de commande, comme vi mais plus simple d'utilisation qui sert a éditer tout type de fichier avec du texte.
+
+Q: Testez si l’application « git » est installée sur votre distribution, si ce n’est pas le cas installez un client git.
+
+Q18: Comment savoir si « git » est déjà installé ?
+>On peut faire la commande `git`, si la commande est reconnue git est installé, autrement git n'est pas installé.
+
+Q19: Quelle(s) commande(s) utilisez-vous pour l’installer ?
+>Pour installer il faut utiliser la commande `sudo apt install git`
+![Installation GIT](Images/Installation/Insalatio_GIT.png)
+
+Q20: Que veut dire « apt » ?
+>Advanced Package Tool (apt) est un gestionnaire de paquet sur Debian, qui permet d'intaller ou de désinstaller des programmes graçe a un répôt en ligne.
+
+Q21: Est-ce que cette commande peut être utilisée sur toutes les distributions Linux ?
+>Non, C'est uniquement les systeme sous debian. ex: Arch linux utilise pacman et Alpine Linux utilise apk.
+
+R: Créez un sous-répertoire « EMSY_TP1_TDS-DEA » dans le répertoire de votre utilisateur. Attention : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution.
+
+Q22: Quel est le répertoire utilisateur ?
+>C'est le dossier qui se trouve dans "/home/admin" "admin" et le nom d'utilisateur de notre machine.
+
+Q23: Quelles sont les commandes que vous allez utiliser ?
+>Premièrement, se diriger dans notre dossier utilisateur en faisant "cd /home/admin".
+>Crée un dossier avec cette commande "mkdir EMSY_TP1_TDS-DEA"
+>Et se deplacer dedans avec "cd EMSY_TP1_TDS-DEA"
+
+S: Dans ce répertoire, tapez la commande : git clone https://github.com/TimeDol/EMSY_TP1_Source.git
+![Clone du depot](Images/Installation/Clone.png)
+
+Q24: Qu’observez-vous dans votre répertoire ?
+>Un dossier du nom de "EMSY_TP1_Source" c'est crée et à l'interieur se trouver le contenu du dépôt github cloné.
+
+T: Editez le fichier source .c avec l’éditeur de texte « nano ». Réalisez un petit programme en C (par exemple de type « Hello world »).
+>Nous avons realiser un Hello World en C. avec l'aide de nano.
+![Fichier Hello World](Images/Installation/Code_Hello_Word.png)
+
+U. Vérifiez si le compilateur « gcc » est bien installé. Notez la version du logiciel.
+>Pour ça nous avons taper "gcc -v"
+![test gcc](Images/Installation/Test_GCC.png)
+
+Tapez les commandes suivantes : "gcc -Wall -o EMSY_TP1.o -c EMSY_TP1.c" et "gcc -o EMSY_TP1 EMSY_TP1.o"
+![Compilation](Images/Installation/GCC_Complie.png)
+
+Q25: Quels sont les fichiers qui ont été générés ?
+>Un fichier "EMSY_TP1.o" qui contient les données binaire de programme compilé:
+![fichier .o](Images/Installation/Fichier_O.png)
+
+>Et un fichier executable par Linux "EMSY_TP1"
+
+V. Entrez la commande suivante : ./EMSY_TP1
+Q26: Que se passe-t-il ?
+>Une fois executer, le programme nous revoie un "Hello World!"
+![Hello World](Images/Installation/Hello_World.png)
 
 ## Tips 
 
